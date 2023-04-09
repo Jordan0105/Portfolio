@@ -1,0 +1,75 @@
+.menu {
+    width: 100%;
+    background-color: rgb(19, 25, 33);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+    -ms-flex-pack: right;
+    justify-content: right;
+}
+
+.menu__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.menu__item {
+    font-size: 1.125rem;
+    margin-left: 1.5rem;
+    padding: 0.3rem 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    text-shadow: none;
+    -webkit-transition: text-shadow 0.3s ease-in-out;
+    -o-transition: text-shadow 0.3s ease-in-out;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+.menu__item:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px #abffab, 0 0 20px #beffbe, 0 0 30px #b2ffb2;
+}
+
+.menu__item__language {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.menu__item__image {
+    fill: #ffffff;
+    -webkit-transition: fill 0.3s ease-in-out, -webkit-filter 0.3s ease-in-out;
+    transition: fill 0.3s ease-in-out, -webkit-filter 0.3s ease-in-out;
+    -o-transition: fill 0.3s ease-in-out, filter 0.3s ease-in-out;
+    transition: fill 0.3s ease-in-out, filter 0.3s ease-in-out;
+    transition: fill 0.3s ease-in-out, filter 0.3s ease-in-out, -webkit-filter 0.3s ease-in-out;
+}
+
+.menu__item__image:hover {
+    -webkit-filter: drop-shadow(0 0 10px #abffab) drop-shadow(0 0 0px #beffbe) drop-shadow(0 0 30px #b2ffb2);
+    filter: drop-shadow(0 0 10px #abffab) drop-shadow(0 0 0px #beffbe) drop-shadow(0 0 30px #b2ffb2);
+}
+
+.menu__item:last-child {
+    margin-right: 3rem;
+}

@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../../assets/Fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf') format('truetype');
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    display: block;
+}
+
+button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    text-transform: none;
+}
+
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+button::-moz-focusring {
+    outline: 1px dotted inherit;
+}
+
+img {
+    border-style: none;
+}
+
+a {
+    background-color: transparent;
+}
