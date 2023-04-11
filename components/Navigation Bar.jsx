@@ -1,5 +1,7 @@
 import React from "react";
 import translateIcon from "../assets/Icons/Translate.svg";
+import "../src/css/css-components/Menu.css";
+import "../src/css/css-components/Button.css";
 
 function NavigationBar() {
   return (
