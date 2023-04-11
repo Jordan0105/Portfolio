@@ -1,0 +1,117 @@
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 4.5rem;
+
+}
+
+.about__title::after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 1px;
+    float: left;
+    top: 50%;
+    width: 30vw;
+    margin-right: 5vw;
+    background-image: radial-gradient(rgb(255, 255, 255) 10%, transparent 0);
+    background-size: 10px 1px;
+
+}
+
+.about__description {
+    font-size: calc(min(40px, max(22px, 8vw)));
+    font-size: clamp(12px, 8vw, 22px);
+    margin-left: 8rem;
+    padding-bottom: 8rem;
+}
+
+.about__list__languages {
+    list-style-type: none;
+
+}
+
+.about__item__language {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.about__item__text {
+
+    display: inline-block;
+    overflow: hidden;
+    display: none;
+    /* border-right: .15em solid white; */
+    white-space: nowrap;
+    margin: 0 auto;
+    /* animation: typing 4s steps(22), blink .5s step-end infinite alternate; */
+}
+
+
+
+
+@keyframes typing {
+    0% {
+        width: 0px;
+    }
+
+    90% {
+        width: 100%;
+    }
+
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+.about__item__language__bullets {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.about__list__fronTools,
+.about__list__testingTools {
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 3rem 0;
+}
+
+.about__item__fronTool {
+    width: 100px;
+    height: 90px;
+}
+
+.about__item__tesTool {
+    width: 80px;
+    height: 70px;
+}
+
+#CSSLogo {
+    width: 75px;
+}
+
+#SassLogo {
+    width: 80px;
+    height: 65px;
+}
+
+#BootstrapLogo {
+    height: 75px;
+}
+
+#BulmaLogo {
+    width: 80px;
+}
+
+#githubLogo {
+    border-radius: 50%;
+}

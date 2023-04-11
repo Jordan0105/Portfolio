@@ -1,5 +1,7 @@
 import React from "react";
 import { Zoom, Fade } from "react-awesome-reveal";
+import "../src/css/css-components/Intro.css";
+
 const Intro = () => {
   return (
     <div className="intro">
@@ -13,27 +15,25 @@ const Intro = () => {
         </Zoom>
       </div>
       <div className="intro__description">
-        <p>
-          <Fade cascade>
-            <span className="xd">
-              I&#39;m a System Engineering student with a strong passion for
-              learning about all things tech-related.
-            </span>
-            <span className="xd">
-              I love designing web pages and working on projects that challenge
-              me and help me grow.
-              <br />
-              <br />
-            </span>
-            <span className="xd">
-              Thanks for taking the time to read my introduction.
-            </span>
-            <span className="xd">
-              I&#39;m excited to connect with you and collaborate on stunnig and
-              innovative projects.
-            </span>
-          </Fade>
-        </p>
+        <Fade cascade>
+          <span className="xd">
+            I&#39;m a System Engineering student with a strong passion for
+            learning about all things tech-related.
+          </span>
+          <span className="xd">
+            I love designing web pages and working on projects that challenge me
+            and help me grow.
+            <br />
+            <br />
+          </span>
+          <span className="xd">
+            Thanks for taking the time to read my introduction.
+          </span>
+          <span className="xd">
+            I&#39;m excited to connect with you and collaborate on stunnig and
+            innovative projects.
+          </span>
+        </Fade>
       </div>
     </div>
   );
