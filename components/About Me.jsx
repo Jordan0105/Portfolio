@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "../src/css/css-components/About Me.css";
 import "animate.css";
+import { AttentionSeeker } from "react-awesome-reveal";
 
 function AboutMe() {
   useEffect(() => {
@@ -95,70 +96,74 @@ function AboutMe() {
         <br />
         Front-End tools that I know are:
         <div className="about__list__fronTools">
-          <img
-            src="../assets/Icons/HTML5.png"
-            id="HTMLogo"
-            alt="HTML5"
-            className="about__item__fronTool"
-          />
-          <img
-            src="../assets/Icons/CSS3.png"
-            id="CSSLogo"
-            alt="CSS3"
-            className="about__item__fronTool"
-          />
-          <img
-            src="../assets/Icons/Sass.png"
-            id="SassLogo"
-            alt="Sass"
-            className="about__item__fronTool"
-          />
-          <img
-            src="../assets/Icons/React.png"
-            id="ReactLogo"
-            alt="React"
-            className="about__item__fronTool"
-          />
-          <img
-            src="../assets/Icons/Bootstrap5.png"
-            id="BootstrapLogo"
-            alt="Bootstrap"
-            className="about__item__fronTool"
-          />
-          <img
-            id="BulmaLogo"
-            src="../assets/Icons/Bulma.png"
-            alt="Bulma"
-            className="about__item__fronTool"
-          />
+          <AttentionSeeker effect="tada" cascade>
+            <img
+              src="../assets/Icons/HTML5.png"
+              id="HTMLogo"
+              alt="HTML5"
+              className="about__item__fronTool"
+            />
+            <img
+              src="../assets/Icons/CSS3.png"
+              id="CSSLogo"
+              alt="CSS3"
+              className="about__item__fronTool"
+            />
+            <img
+              src="../assets/Icons/Sass.png"
+              id="SassLogo"
+              alt="Sass"
+              className="about__item__fronTool"
+            />
+            <img
+              src="../assets/Icons/React.png"
+              id="ReactLogo"
+              alt="React"
+              className="about__item__fronTool"
+            />
+            <img
+              src="../assets/Icons/Bootstrap5.png"
+              id="BootstrapLogo"
+              alt="Bootstrap"
+              className="about__item__fronTool"
+            />
+            <img
+              id="BulmaLogo"
+              src="../assets/Icons/Bulma.png"
+              alt="Bulma"
+              className="about__item__fronTool"
+            />
+          </AttentionSeeker>
         </div>
         And here are some of the version control and testing tools I&#39;ve
         used:
         <div className="about__list__testingTools">
-          <img
-            src="../assets/Icons/Git.png"
-            id="gitLogo"
-            alt="Git"
-            className="about__item__tesTool"
-          />
-          <img
-            src="../assets/Icons/GitHub.png"
-            id="githubLogo"
-            alt="GitHub"
-            className="about__item__tesTool"
-          />
-          <img
-            src="../assets/Icons/Travis CI.png"
-            id="travisLogo"
-            alt="Travis CI Logo"
-            className="about__item__tesTool"
-          />
-          <img
-            src="../assets/Icons/Jest.png"
-            id="jestLogo"
-            alt="Jest"
-            className="about__item__tesTool"
-          />
+          <AttentionSeeker effect="tada" cascade delay={2800}>
+            <img
+              src="../assets/Icons/Git.png"
+              id="gitLogo"
+              alt="Git"
+              className="about__item__tesTool"
+            />
+            <img
+              src="../assets/Icons/GitHub.png"
+              id="githubLogo"
+              alt="GitHub"
+              className="about__item__tesTool"
+            />
+            <img
+              src="../assets/Icons/Travis CI.png"
+              id="travisLogo"
+              alt="Travis CI Logo"
+              className="about__item__tesTool"
+            />
+            <img
+              src="../assets/Icons/Jest.png"
+              id="jestLogo"
+              alt="Jest"
+              className="about__item__tesTool"
+            />
+          </AttentionSeeker>
         </div>
       </div>
     </div>
