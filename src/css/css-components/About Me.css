@@ -71,14 +71,13 @@
 }
 
 .about__item__language__bullets {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     margin-right: 10px;
 }
 
 .about__list__fronTools,
 .about__list__testingTools {
-    border: 1px solid white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
