@@ -1,12 +1,26 @@
-.about {
+.about,
+.projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    margin-right: 4.5rem;
+    /* margin-right: 4.5rem;
+    margin-left: 8rem; */
+    padding-bottom: 8rem;
 
 }
 
-.about__title::after {
+/* TODO: Create a p margin for every about text like: 
+    Hello There, Fron_end tools and version control tools
+*/
+
+/* .about * p {
+    margin-left: 8rem;
+    padding-bottom: 8rem;
+} */
+
+
+.about__title::after,
+.projects__title::after {
     content: "";
     display: block;
     position: relative;
@@ -23,8 +37,13 @@
 .about__description {
     font-size: calc(min(40px, max(22px, 8vw)));
     font-size: clamp(12px, 8vw, 22px);
-    margin-left: 8rem;
+    /* margin-left: 8rem; */
     padding-bottom: 8rem;
+
+}
+
+.about__description__text {
+    width: 75%;
 }
 
 .about__list__languages {
@@ -82,7 +101,11 @@
     align-items: center;
     justify-content: space-evenly;
     margin: 3rem 0;
+    width: 100%;
+    flex-wrap: wrap;
 }
+
+
 
 .about__item__fronTool {
     width: 100px;

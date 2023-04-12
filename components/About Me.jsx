@@ -30,11 +30,13 @@ function AboutMe() {
     <div className="about">
       <h2 className="about__title">About Me</h2>
       <div className="about__description">
-        Hello there! My name is Yordan, and I&#39;m passionate about creating
-        things related to coding. I&#39;ve been building websites for the past
-        year, and I&#39;ve had a blast doing it. Currently, I&#39;m studying
-        System Engineering and have knowledge of several programming languages
-        such as:
+        <p className="about__description__text">
+          Hello there! My name is Yordan, and I&#39;m passionate about creating
+          things related to coding. I&#39;ve been building websites for the past
+          year, and I&#39;ve had a blast doing it. Currently, I&#39;m studying
+          System Engineering and have knowledge of several programming languages
+          such as:
+        </p>
         <ul className="about__list__languages">
           <li className="about__item__language">
             <img
