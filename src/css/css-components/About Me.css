@@ -13,10 +13,10 @@
     Hello There, Fron_end tools and version control tools
 */
 
-/* .about * p {
-    margin-left: 8rem;
-    padding-bottom: 8rem;
-} */
+.about__title,
+.projects__title {
+    margin-right: 2rem;
+}
 
 
 .about__title::after,
@@ -37,13 +37,14 @@
 .about__description {
     font-size: calc(min(40px, max(22px, 8vw)));
     font-size: clamp(12px, 8vw, 22px);
-    /* margin-left: 8rem; */
+    margin-left: 8rem;
     padding-bottom: 8rem;
 
 }
 
 .about__description__text {
     width: 75%;
+
 }
 
 .about__list__languages {
