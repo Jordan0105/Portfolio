@@ -1,6 +1,15 @@
 .intro {
     margin-left: 8rem;
     padding-bottom: 8rem;
+    width: 100vw;
+}
+
+@media (max-width: 580px) {
+
+    .intro,
+    .about__description {
+        margin-left: 2rem;
+    }
 }
 
 .intro__greeting {
@@ -13,7 +22,9 @@
 .intro__profession,
 .intro__my__name {
     font-size: calc(min(80px, max(40px, 8vw)));
-    font-size: clamp(40px, 8vw, 80px);
+    /* font-size: clamp(40px, 8vw, 80px); */
+    font-size: clamp(30px, 8vw, 80px);
+
     padding: 0;
     margin: 0;
     color: #77cbb9;
@@ -21,7 +32,9 @@
 
 .intro__description {
     font-size: calc(min(40px, max(22px, 8vw)));
-    font-size: clamp(12px, 8vw, 22px);
-    width: 75%;
+    /* font-size: clamp(12px, 8vw, 22px); */
+    font-size: clamp(12px, 6vw, 22px);
+
+    width: 85%;
 
 }
