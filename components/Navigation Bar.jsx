@@ -23,6 +23,14 @@ function NavigationBar() {
               <span className="menu__button__text">Resume</span>
             </button>
           </li>
+          <li className="menu__button__smaller__screen">
+            <img
+              src="../assets/Icons/Menu.svg
+              "
+              alt="Menu"
+              className="menu__smaller__screen__icon"
+            />
+          </li>
         </ul>
       </nav>
     </header>

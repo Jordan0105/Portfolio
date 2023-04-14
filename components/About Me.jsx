@@ -33,9 +33,10 @@ function AboutMe() {
         <p className="about__description__text">
           Hello there! My name is Yordan, and I&#39;m passionate about creating
           things related to coding. I&#39;ve been building websites for the past
-          year, and I&#39;ve had a blast doing it. Currently, I&#39;m studying
-          System Engineering and have knowledge of several programming languages
-          such as:
+          year, and I&#39;ve had a blast doing it. <br />
+          <br />
+          Currently, I&#39;m studying System Engineering and have knowledge of
+          several programming languages such as:
         </p>
         <ul className="about__list__languages">
           <li className="about__item__language">
@@ -96,7 +97,9 @@ function AboutMe() {
         </ul>
         <br />
         <br />
-        Front-End tools that I know are:
+        <p className="about__frontend__text">
+          Front-End tools that I know are:
+        </p>
         <div className="about__list__fronTools">
           <AttentionSeeker effect="tada" cascade>
             <img
@@ -137,8 +140,10 @@ function AboutMe() {
             />
           </AttentionSeeker>
         </div>
-        And here are some of the version control and testing tools I&#39;ve
-        used:
+        <p className="about__vc__testing__text">
+          And here are some of the version control and testing tools I&#39;ve
+          used:
+        </p>
         <div className="about__list__testingTools">
           <AttentionSeeker effect="tada" cascade delay={2800}>
             <img

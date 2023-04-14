@@ -5,8 +5,8 @@
     justify-content: flex-end;
     /* margin-right: 4.5rem;
     margin-left: 8rem; */
-    padding-bottom: 8rem;
-
+    padding: 8rem 0;
+    width: 100vw;
 }
 
 /* TODO: Create a p margin for every about text like: 
@@ -16,6 +16,12 @@
 .about__title,
 .projects__title {
     margin-right: 2rem;
+    /* font-size: clamp(12px, 6vw, 22px); */
+
+}
+
+.about__title {
+    margin-top: -10px;
 }
 
 
@@ -29,21 +35,28 @@
     top: 50%;
     width: 30vw;
     margin-right: 5vw;
+    margin-top: 19px;
     background-image: radial-gradient(rgb(255, 255, 255) 10%, transparent 0);
     background-size: 10px 1px;
-
 }
 
 .about__description {
     font-size: calc(min(40px, max(22px, 8vw)));
-    font-size: clamp(12px, 8vw, 22px);
+    font-size: clamp(12px, 6vw, 22px);
     margin-left: 8rem;
     padding-bottom: 8rem;
 
 }
 
+@media (max-width: 580px) {
+    .about__description {
+        margin-left: 2rem;
+    }
+}
+
 .about__description__text {
-    width: 75%;
+    /* width: 75%; */
+    width: 85%;
 
 }
 
@@ -70,7 +83,14 @@
     /* animation: typing 4s steps(22), blink .5s step-end infinite alternate; */
 }
 
+.about__frontend__text,
+.about__vc__testing__text {
+    width: 85%;
+}
 
+.about__vc__testing__text {
+    margin-top: 27rem;
+}
 
 
 @keyframes typing {
@@ -99,6 +119,9 @@
 .about__list__fronTools,
 .about__list__testingTools {
     display: flex;
+    position: absolute;
+    left: 0;
+    /* margin: 0 3rem; */
     align-items: center;
     justify-content: space-evenly;
     margin: 3rem 0;
@@ -108,31 +131,78 @@
 
 
 
+/* .probando {
+    display: flex;
+    position: absolute;
+    left: 0; 
+    margin: 0 3rem;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 100%;
+    flex-wrap: wrap;
+    border: 1px solid white;
+} */
+
 .about__item__fronTool {
-    width: 100px;
-    height: 90px;
+    width: 20vw;
+    min-width: 30px;
+    max-width: 100px;
+    height: auto;
+    max-height: 75px;
+    margin: 2rem 2rem 0rem 2rem;
 }
 
 .about__item__tesTool {
-    width: 80px;
-    height: 70px;
+    width: 10vw;
+    min-width: 55px;
+    max-width: 75px;
+    height: auto;
+    max-height: 75px;
+    margin: 2rem 2rem 0rem 2rem;
+    /* height: 70px; */
+    /* display: none; */
+}
+
+/* TODO: Create  a max-width 580px css media query */
+
+
+#htmLogo {
+    min-width: 85px;
 }
 
 #CSSLogo {
-    width: 75px;
+    max-width: 73px;
+    min-width: 48px;
+    width: 14vw;
+
 }
 
 #SassLogo {
-    width: 80px;
-    height: 65px;
+    max-width: 85px;
+    /* height: 65px; */
 }
 
 #BootstrapLogo {
-    height: 75px;
+    max-width: 85px;
+    max-height: 70px;
+    min-height: 23px;
+    height: 8vh;
+
 }
 
+@media (max-width: 461px) {
+    #BootstrapLogo {
+        height: 7vh;
+    }
+}
+
+/* TODO: whne screen is less than 459px css widless */
+
 #BulmaLogo {
-    width: 80px;
+
+    height: 12vh;
+    max-height: 90px;
 }
 
 #githubLogo {

@@ -3,9 +3,9 @@ import "../src/css/css-components/Projects.css";
 
 function MyProjects() {
   useEffect(() => {
-    const project__list__card = document.getElementsByClassName(
-      "project__list__card"
-    )[0];
+    // const project__list__card = document.getElementsByClassName(
+    //   "project__list__card"
+    // )[0];
   }, []);
 
   return (
