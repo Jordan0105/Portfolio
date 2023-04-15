@@ -41,33 +41,38 @@
 
 .project__list__card__text {
     text-align: center;
-    margin-top: 16%;
+    /* margin-top: 16%; */
     color: white;
 
 }
 
 .project__list__card {
-    /* width: 100px; */
+    width: 100%;
     height: 100px;
     font-size: 20px;
     color: black;
     /* top: 0; */
     /* left: 0;  */
     transition: 0.4s 0.15s cubic-bezier(0.17, 0.67, 0.5, 1.03);
-    position: absolute;
+    /* position: absolute; */
+    /* opacity: 0; */
 
     /* overflow: hidden; */
 }
 
 .project__list__info {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    /* width: 100%; */
     line-height: normal;
     color: aliceblue;
+    position: absolute;
+    top: 0;
     /* opacity: 0; */
+
+    display: none;
 }
 
 /* .project__list__item__image:hover {
@@ -75,15 +80,27 @@
 } */
 
 .project__list__card__info__description {
-    width: 30%;
+    width: 100%;
 }
 
+/* The image opacity */
+
+.projects__list__item:hover .project__list__item__image {
+    opacity: 0.2;
+}
+
+/* The card up 280% */
 
 .projects__list__item:hover .project__list__card {
-    transform: translateY(-100%);
-    /* opacity: 0; */
+    transform: translateY(-280%);
 }
 
+/* The info with the title and description */
+.projects__list__item:hover .project__list__info {
+    display: flex;
+}
+
+/* First stpwatch title text */
 .projects__list__item:hover .project__list__card__text {
-    opacity: 0;
+    display: none;
 }
