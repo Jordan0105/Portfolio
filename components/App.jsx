@@ -4,6 +4,7 @@ import AboutMe from "./About Me";
 import MyProjects from "./My Projects";
 import NavigationBar from "./Navigation Bar";
 import ContactMe from "./Contact Me";
+import "animate.css";
 import "../src/css/App.css";
 
 const App = () => {
