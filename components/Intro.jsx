@@ -4,7 +4,7 @@ import "../src/css/css-components/Intro.css";
 
 const Intro = () => {
   return (
-    <div className="intro">
+    <section className="intro">
       <div className="intro__name">
         <Fade duration={2500} triggerOnce>
           <p className="intro__greeting">Hi, my name is...</p>
@@ -35,7 +35,7 @@ const Intro = () => {
           </span>
         </Fade>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -27,7 +27,7 @@ function AboutMe() {
   }, []);
 
   return (
-    <div className="about">
+    <section className="about">
       <h2 className="about__title">About Me</h2>
       <div className="about__description">
         <p className="about__description__text">
@@ -173,7 +173,7 @@ function AboutMe() {
           </AttentionSeeker>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

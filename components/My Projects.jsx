@@ -2,28 +2,10 @@ import React, { useEffect } from "react";
 import "../src/css/css-components/Projects.css";
 
 function MyProjects() {
-  useEffect(() => {
-    // const project__list__card = document.getElementsByClassName(
-    //   "project__list__card"
-    // )[0];
-  }, []);
+  useEffect(() => {}, []);
 
   return (
-    // <div id="myProjectContainer">
-    //   <div id="projectsTitle">My Projects</div>
-    //   <div id="projectsList">
-    //     <ul>
-    //       <li>Amazon-Clone</li>
-    //       <li>Calculator</li>
-    //       <li>Countdown</li>
-    //       <li>Stopwatch</li>
-    //       <li>Heroes Arent Heroes</li>
-    //       <li>Veterinary Clinic</li>
-    //     </ul>
-    //   </div>
-    // </div>
-
-    <div className="projects">
+    <section className="projects">
       <h2 className="projects__title">My work</h2>
 
       <div className="projects__list">
@@ -150,7 +132,7 @@ function MyProjects() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
