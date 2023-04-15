@@ -5,6 +5,8 @@ function ContactMe() {
   return (
     <footer>
       <div className="footer">
+        <h2 className="contact__title">Contact Me</h2>
+
         <nav className="menu__footer">
           <ul className="menu__footer__list">
             <li className="menu__footer__item">
@@ -17,15 +19,16 @@ function ContactMe() {
             <li className="menu__footer__item">
               <img
                 src="../assets/Icons/Linkedin.png"
-                alt="E-mail"
+                id="linkedinLogo"
+                alt="Linkedin"
                 className="menu__footer__icon"
               />
             </li>
             <li className="menu__footer__item">
               <img
                 src="../assets/Icons/GitHub.png"
-                alt="E-mail"
-                className="menu__footer__icon"
+                alt="GitHub"
+                className="menu__footer__icon githubLogo"
               />
             </li>
             <li className="menu__footer__item">
