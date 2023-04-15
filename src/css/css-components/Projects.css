@@ -1,9 +1,12 @@
+.projects {
+    justify-content: center;
+}
+
 .projects__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     /* margin-top: 10rem; */
-    border: 1px solid white;
 
 }
 

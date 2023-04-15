@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "../src/css/css-components/About Me.css";
-import "animate.css";
 import { AttentionSeeker } from "react-awesome-reveal";
 
 function AboutMe() {

@@ -2,7 +2,6 @@
 .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
     /* margin-right: 4.5rem;
     margin-left: 8rem; */
     padding: 8rem 0;
@@ -14,18 +13,13 @@
 */
 
 .about__title,
-.projects__title,
-.contact__title {
-    margin-right: 2rem;
-    /* font-size: clamp(12px, 6vw, 22px); */
-
-}
-
-.about__title,
-.contact__title {
+.contact__title,
+.projects__title {
     margin-top: -10px;
     position: absolute;
     right: 10px;
+    margin-right: 2rem;
+
 }
 
 
@@ -131,7 +125,7 @@
     align-items: center;
     justify-content: space-evenly;
     margin: 3rem 0;
-    width: 100%;
+    width: 98%;
     flex-wrap: wrap;
 }
 
@@ -191,9 +185,9 @@
 
 #BootstrapLogo {
     max-width: 85px;
-    max-height: 70px;
+    max-height: 62px;
     min-height: 23px;
-    height: 8vh;
+    height: 11vh;
 
 }
 
