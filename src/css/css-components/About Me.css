@@ -14,13 +14,15 @@
 */
 
 .about__title,
-.projects__title {
+.projects__title,
+.contact__title {
     margin-right: 2rem;
     /* font-size: clamp(12px, 6vw, 22px); */
 
 }
 
-.about__title {
+.about__title,
+.contact__title {
     margin-top: -10px;
     position: absolute;
     right: 10px;
@@ -28,7 +30,8 @@
 
 
 .about__title::after,
-.projects__title::after {
+.projects__title::after,
+.contact__title::after {
     content: "";
     display: block;
     position: relative;
@@ -157,14 +160,14 @@
 }
 
 .about__item__tesTool {
-    width: 10vw;
+    width: 20vw;
     min-width: 55px;
     max-width: 75px;
     height: auto;
     max-height: 75px;
     margin: 2rem 2rem 0rem 2rem;
-    /* height: 70px; */
-    /* display: none; */
+    /* height: 70px;
+    display: none; */
 }
 
 /* TODO: Create  a max-width 580px css media query */
@@ -208,6 +211,6 @@
     max-height: 90px;
 }
 
-#githubLogo {
+.githubLogo {
     border-radius: 50%;
 }

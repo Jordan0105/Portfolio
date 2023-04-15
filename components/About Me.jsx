@@ -154,9 +154,8 @@ function AboutMe() {
             />
             <img
               src="../assets/Icons/GitHub.png"
-              id="githubLogo"
               alt="GitHub"
-              className="about__item__tesTool"
+              className="about__item__tesTool githubLogo"
             />
             <img
               src="../assets/Icons/Travis CI.png"

@@ -18,13 +18,21 @@
     flex-wrap: wrap;
     list-style-type: none;
     flex-direction: row;
+    margin: 5rem 0rem;
 }
 
 .menu__footer__icon {
     width: 20vw;
     min-width: 30px;
-    max-width: 100px;
+    max-width: 55px;
     height: auto;
     max-height: 75px;
     margin: 2rem 2rem 0rem 2rem;
 }
+
+#linkedinLogo {
+    max-width: 90px;
+    min-height: 80px;
+}
+
+/* TODO: Make the icons responsive */
