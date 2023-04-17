@@ -28,6 +28,7 @@
     height: auto;
     max-height: 75px;
     margin: 2rem 2rem 0rem 2rem;
+    cursor: pointer;
 }
 
 #linkedinLogo {

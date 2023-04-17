@@ -1,9 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import translateIcon from "../assets/Icons/Translate.svg";
 import "../src/css/css-components/Menu.css";
 import "../src/css/css-components/Button.css";
 
 function NavigationBar() {
+  useEffect(() => {
+    const anchorLinks = document.querySelectorAll('a[href^="#"]');
+
+    anchorLinks.forEach(function (anchorLink) {
+      anchorLink.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        const target = document.querySelector(this.getAttribute("href"));
+
+        const targetTop = target.offsetTop;
+
+        window.scrollTo({
+          top: targetTop,
+          behavior: "smooth",
+        });
+      });
+    });
+  });
   return (
     <header>
       <nav className="menu">
@@ -15,9 +33,15 @@ function NavigationBar() {
               alt="Translate Icon"
             />
           </li>
-          <li className="menu__item">About</li>
-          <li className="menu__item">Projects</li>
-          <li className="menu__item">Contact</li>
+          <li className="menu__item">
+            <a href="#aboutMe">About</a>
+          </li>
+          <li className="menu__item">
+            <a href="#projects">Projects</a>
+          </li>
+          <li className="menu__item">
+            <a href="#contactMe">Contact</a>
+          </li>
           <li className="menu__item">
             <button className="menu__button">
               <span className="menu__button__text">Resume</span>

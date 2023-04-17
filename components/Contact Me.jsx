@@ -4,8 +4,8 @@ import "../src/css/css-components/Contact Me.css";
 
 function ContactMe() {
   return (
-    <footer>
-      <div className="footer">
+    <footer id="contactMe">
+      <section className="footer">
         <h2 className="contact__title">Contact Me</h2>
 
         <nav className="menu__footer">
@@ -43,7 +43,7 @@ function ContactMe() {
             </AttentionSeeker>
           </ul>
         </nav>
-      </div>
+      </section>
     </footer>
   );
 }
