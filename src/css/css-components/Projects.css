@@ -40,6 +40,7 @@
     border-radius: 40px;
     width: 80vw;
     max-width: 400px;
+    cursor: pointer;
 }
 
 .project__list__card__text {
@@ -101,6 +102,7 @@
 /* The info with the title and description */
 .projects__list__item:hover .project__list__info {
     display: flex;
+    cursor: pointer;
 }
 
 /* First stpwatch title text */

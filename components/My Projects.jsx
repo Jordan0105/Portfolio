@@ -5,7 +5,7 @@ function MyProjects() {
   useEffect(() => {}, []);
 
   return (
-    <section className="projects">
+    <section id="projects" className="projects">
       <h2 className="projects__title">My work</h2>
 
       <div className="projects__list">

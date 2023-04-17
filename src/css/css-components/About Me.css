@@ -151,15 +151,18 @@
     height: auto;
     max-height: 75px;
     margin: 2rem 2rem 0rem 2rem;
+    cursor: pointer;
 }
 
 .about__item__tesTool {
-    width: 20vw;
-    min-width: 55px;
-    max-width: 75px;
+    width: 16vw;
+    min-width: 30px;
+    max-width: 100px;
     height: auto;
     max-height: 75px;
     margin: 2rem 2rem 0rem 2rem;
+    cursor: pointer;
+
     /* height: 70px;
     display: none; */
 }
@@ -186,7 +189,7 @@
 #BootstrapLogo {
     max-width: 85px;
     max-height: 62px;
-    min-height: 23px;
+    min-height: 52px;
     height: 11vh;
 
 }
@@ -203,6 +206,7 @@
 
     height: 12vh;
     max-height: 90px;
+    min-height: 80px;
 }
 
 .githubLogo {

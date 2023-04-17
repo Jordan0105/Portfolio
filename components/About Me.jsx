@@ -4,7 +4,7 @@ import { AttentionSeeker } from "react-awesome-reveal";
 
 function AboutMe() {
   useEffect(() => {
-    console.clear();
+    // console.clear();
     const bullets = document.getElementsByClassName("about__item__text");
     const length = bullets.length;
 
@@ -26,7 +26,7 @@ function AboutMe() {
   }, []);
 
   return (
-    <section className="about">
+    <section id="aboutMe" className="about">
       <h2 className="about__title">About Me</h2>
       <div className="about__description">
         <p className="about__description__text">
@@ -105,36 +105,42 @@ function AboutMe() {
               src="../assets/Icons/HTML5.png"
               id="HTMLogo"
               alt="HTML5"
+              title="HTML"
               className="about__item__fronTool"
             />
             <img
               src="../assets/Icons/CSS3.png"
               id="CSSLogo"
               alt="CSS3"
+              title="CSS"
               className="about__item__fronTool"
             />
             <img
               src="../assets/Icons/Sass.png"
               id="SassLogo"
               alt="Sass"
+              title="Sass"
               className="about__item__fronTool"
             />
             <img
               src="../assets/Icons/React.png"
               id="ReactLogo"
               alt="React"
+              title="React"
               className="about__item__fronTool"
             />
             <img
               src="../assets/Icons/Bootstrap5.png"
               id="BootstrapLogo"
               alt="Bootstrap"
+              title="Bootstrap"
               className="about__item__fronTool"
             />
             <img
               id="BulmaLogo"
               src="../assets/Icons/Bulma.png"
               alt="Bulma"
+              title="Bulma"
               className="about__item__fronTool"
             />
           </AttentionSeeker>
@@ -148,12 +154,14 @@ function AboutMe() {
             <img
               src="../assets/Icons/Git.png"
               id="gitLogo"
+              title="Git"
               alt="Git"
               className="about__item__tesTool"
             />
             <img
               src="../assets/Icons/GitHub.png"
               alt="GitHub"
+              title="GitHub"
               className="about__item__tesTool githubLogo"
             />
             <img
@@ -161,11 +169,13 @@ function AboutMe() {
               id="travisLogo"
               alt="Travis CI Logo"
               className="about__item__tesTool"
+              title="Travis CI"
             />
             <img
               src="../assets/Icons/Jest.png"
               id="jestLogo"
               alt="Jest"
+              title="Jest"
               className="about__item__tesTool"
             />
           </AttentionSeeker>
