@@ -1,9 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import translateIcon from "../assets/Icons/Translate.svg";
 import "../src/css/css-components/Menu.css";
 import "../src/css/css-components/Button.css";
 
 function NavigationBar() {
+  const [isAsideScreenVisible, setIsAsideScreenVisible] = useState(false);
+
   useEffect(() => {
     const anchorLinks = document.querySelectorAll('a[href^="#"]');
 
@@ -22,6 +24,11 @@ function NavigationBar() {
       });
     });
   });
+
+  const handleBurguerClick = () => {
+    setIsAsideScreenVisible(true);
+    isAsideScreenVisible === false ? console.log("Opening") : "";
+  };
   return (
     <header>
       <nav className="menu">
@@ -49,10 +56,11 @@ function NavigationBar() {
           </li>
           <li className="menu__button__smaller__screen">
             <img
-              src="../assets/Icons/Menu.svg
-              "
+              id="menuBurguerIcon"
+              src="../assets/Icons/Menu.svg"
               alt="Menu"
               className="menu__smaller__screen__icon"
+              onClick={handleBurguerClick}
             />
           </li>
         </ul>

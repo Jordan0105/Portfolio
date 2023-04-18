@@ -73,3 +73,7 @@
 .menu__item:last-child {
     margin-right: 3rem;
 }
+
+.menu__smaller__screen__icon {
+    cursor: pointer;
+}
