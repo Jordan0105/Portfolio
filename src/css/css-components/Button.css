@@ -1,4 +1,5 @@
-.menu__button {
+.menu__button,
+.menu__aside__button {
     border: 0;
     background-image: -o-linear-gradient(300deg, rgb(57, 60, 90), rgb(54, 55, 50), rgb(57, 60, 91));
     background-image: linear-gradient(150deg, rgb(57, 60, 90), rgb(54, 55, 50), rgb(57, 60, 91));
@@ -15,7 +16,8 @@
     transition: .8s;
 }
 
-.menu__button__text {
+.menu__button__text,
+.menu__button__aside__text {
     background-color: rgb(19, 25, 33);
     padding: 8px 16px;
     border-radius: 6px;
@@ -24,13 +26,15 @@
     transition: .8s;
 }
 
-.menu__button__text:hover {
+.menu__button__text:hover,
+.menu__button__aside__text:hover {
     background-color: transparent;
     color: #ffffff;
     text-shadow: 0 0 10px #abffab, 0 0 20px #beffbe, 0 0 30px #b2ffb2;
 }
 
-.menu__button:active {
+.menu__button:active,
+.menu__aside__button:active {
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);

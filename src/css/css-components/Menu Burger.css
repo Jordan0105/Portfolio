@@ -1,0 +1,23 @@
+.aside__menu {
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(19, 25, 33);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__aside__list {
+    flex-direction: column !important;
+    padding-left: 0px;
+}
+
+.menu__aside__list li {
+    padding: 1rem 0;
+}
+
+.menu__aside__item {
+    margin-left: 0 !important;
+}

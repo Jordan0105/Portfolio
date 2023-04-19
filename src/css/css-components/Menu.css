@@ -9,7 +9,8 @@
     justify-content: right;
 }
 
-.menu__list {
+.menu__list,
+.menu__aside__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -20,7 +21,8 @@
     flex-direction: row;
 }
 
-.menu__item {
+.menu__item,
+.menu__aside__item {
     font-size: 1.125rem;
     margin-left: 1.5rem;
     padding: 0.3rem 1rem;
@@ -40,15 +42,18 @@
     transition: text-shadow 0.3s ease-in-out;
 }
 
-.menu__item:hover {
+.menu__item:hover,
+.menu__aside__item:hover {
     color: #ffffff;
     text-shadow: 0 0 10px #abffab, 0 0 20px #beffbe, 0 0 30px #b2ffb2;
 }
 
-.menu__item__language {
+.menu__item__language,
+.menu__item__aside__language {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -56,7 +61,8 @@
 
 }
 
-.menu__item__image {
+.menu__item__image,
+.menu__aside__item__image {
     fill: #ffffff;
     -webkit-transition: fill 0.3s ease-in-out, -webkit-filter 0.3s ease-in-out;
     transition: fill 0.3s ease-in-out, -webkit-filter 0.3s ease-in-out;
@@ -65,7 +71,8 @@
     transition: fill 0.3s ease-in-out, filter 0.3s ease-in-out, -webkit-filter 0.3s ease-in-out;
 }
 
-.menu__item__image:hover {
+.menu__item__image:hover,
+.menu__aside__item__image:hover {
     -webkit-filter: drop-shadow(0 0 10px #abffab) drop-shadow(0 0 0px #beffbe) drop-shadow(0 0 30px #b2ffb2);
     filter: drop-shadow(0 0 10px #abffab) drop-shadow(0 0 0px #beffbe) drop-shadow(0 0 30px #b2ffb2);
 }
