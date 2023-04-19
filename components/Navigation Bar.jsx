@@ -7,14 +7,14 @@ import "../src/css/css-components/Button.css";
 const NavigationBar = () => {
   const [isAsideScreenVisible, setIsAsideScreenVisible] = useState(true);
   const handleBurguerClick = () => {
-    setIsAsideScreenVisible(false);
+    setIsAsideScreenVisible(!isAsideScreenVisible);
   };
   return (
     <>
       {isAsideScreenVisible ? (
         <ComputerMenu handleBurguerClick={handleBurguerClick} />
       ) : (
-        <MobileMenu />
+        <MobileMenu handleBurguerClick={handleBurguerClick} />
       )}
     </>
   );
