@@ -157,7 +157,7 @@
 .about__item__tesTool {
     width: 16vw;
     min-width: 30px;
-    max-width: 100px;
+    max-width: 88px;
     height: auto;
     max-height: 75px;
     margin: 2rem 2rem 0rem 2rem;
@@ -170,8 +170,8 @@
 /* TODO: Create  a max-width 580px css media query */
 
 
-#htmLogo {
-    min-width: 85px;
+#HTMLogo {
+    min-width: 67px;
 }
 
 #CSSLogo {
