@@ -41,6 +41,7 @@ const MobileMenu = ({ handleBurguerClick }) => {
     <ComputerMenu handleBurguerClick={handleBurguerClick} />
   ) : (
     <div className="aside__menu">
+      <div id="bubble"></div>
       <ul className="menu__aside__list">
         <li className="menu__item__aside__language">
           <img
