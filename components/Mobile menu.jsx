@@ -30,13 +30,7 @@ const MobileMenu = ({ handleBurguerClick }) => {
       });
     });
   });
-  // TODO: Create a useState to render open burguer and not open burguer triggered onClick buttons
-  // const hiddeBurguerMenu = () => {
-  //   const test = document.querySelector(".aside__menu");
-  //   test.style.display = "none";
-  //   // const navMenu = document.querySelector(".menu");
-  //   // navMenu.style.display = "flex";
-  // };
+
   return isNavItemClicked ? (
     <ComputerMenu handleBurguerClick={handleBurguerClick} />
   ) : (

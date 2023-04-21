@@ -126,7 +126,7 @@ function MyProjects() {
             <div className="project__list__info">
               <h2 className="project__list__card__info__text">My Portfolio</h2>
               <p className="project__list__card__info__description">
-                This is my portfolio built it with React + Vite
+                This is my portfolio <br /> built it with React + Vite
               </p>
             </div>
           </div>
