@@ -19,9 +19,33 @@
     position: absolute;
     right: 10px;
     margin-right: 2rem;
+    cursor: pointer;
 
 }
 
+/* .about__title:hover::before,
+.contact__title:hover::before,
+.projects__title:hover::before {
+    transform-origin: right;
+    transform: scaleX(1);
+
+} */
+
+/* .about__title::before,
+.contact__title::before,
+.projects__title::before {
+    background-color: white;
+    content: '';
+    position: absolute;
+    width: 33%;
+    height: 1.5px;
+    border-radius: 10px;
+    bottom: 0;
+    right: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+} */
 
 .about__title::after,
 .projects__title::after,
@@ -128,21 +152,6 @@
     width: 98%;
     flex-wrap: wrap;
 }
-
-
-
-/* .probando {
-    display: flex;
-    position: absolute;
-    left: 0; 
-    margin: 0 3rem;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    width: 100%;
-    flex-wrap: wrap;
-    border: 1px solid white;
-} */
 
 .about__item__fronTool {
     width: 20vw;

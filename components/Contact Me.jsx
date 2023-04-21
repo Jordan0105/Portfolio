@@ -16,7 +16,7 @@ function ContactMe() {
                   <img
                     src="../assets/Icons/Email.png"
                     alt="E-mail"
-                    className="menu__footer__icon"
+                    className="menu__footer__icon hvr-hang"
                   />
                 </a>
               </li>
@@ -30,7 +30,7 @@ function ContactMe() {
                     src="../assets/Icons/Linkedin.png"
                     id="linkedinLogo"
                     alt="Linkedin"
-                    className="menu__footer__icon"
+                    className="menu__footer__icon hvr-hang"
                   />
                 </a>
               </li>
@@ -43,7 +43,7 @@ function ContactMe() {
                   <img
                     src="../assets/Icons/GitHub.png"
                     alt="GitHub"
-                    className="menu__footer__icon githubLogo"
+                    className="menu__footer__icon githubLogo hvr-hang"
                   />
                 </a>
               </li>
@@ -56,7 +56,7 @@ function ContactMe() {
                   <img
                     src="../assets/Icons/Twitter.png"
                     alt="Twitter"
-                    className="menu__footer__icon"
+                    className="menu__footer__icon hvr-hang"
                   />
                 </a>
               </li>
