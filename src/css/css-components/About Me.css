@@ -8,9 +8,6 @@
     width: 100vw;
 }
 
-/* TODO: Create a p margin for every about text like: 
-    Hello There, Fron_end tools and version control tools
-*/
 
 .about__title,
 .contact__title,
@@ -171,12 +168,7 @@
     max-height: 75px;
     margin: 2rem 2rem 0rem 2rem;
     cursor: pointer;
-
-    /* height: 70px;
-    display: none; */
 }
-
-/* TODO: Create  a max-width 580px css media query */
 
 
 #HTMLogo {
@@ -209,7 +201,6 @@
     }
 }
 
-/* TODO: whne screen is less than 459px css widless */
 
 #BulmaLogo {
 

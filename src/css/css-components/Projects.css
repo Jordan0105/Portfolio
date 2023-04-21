@@ -40,6 +40,7 @@
     border-radius: 40px;
     width: 80vw;
     max-width: 400px;
+    min-width: 256px;
     cursor: pointer;
 }
 
@@ -65,26 +66,30 @@
 }
 
 .project__list__info {
-    /* display: flex; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* width: 100%; */
+
     line-height: normal;
     color: aliceblue;
     position: absolute;
-    top: 0;
-    /* opacity: 0; */
+
+    top: 5rem;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
     display: none;
 }
 
-/* .project__list__item__image:hover {
-    filter: blur(5px);
-} */
-
 .project__list__card__info__description {
-    width: 100%;
+    font-size: calc(min(40px, max(22px, 8vw)));
+    font-size: clamp(12px, 6vw, 22px);
+}
+
+.project__list__card__info__text {
+    font-size: calc(min(40px, max(35px, 8vw)));
+    font-size: clamp(12px, 6vw, 28px);
 }
 
 /* The image opacity */
