@@ -12,33 +12,53 @@ function ContactMe() {
           <ul className="menu__footer__list">
             <AttentionSeeker effect="bounce" delay={300}>
               <li className="menu__footer__item">
-                <img
-                  src="../assets/Icons/Email.png"
-                  alt="E-mail"
-                  className="menu__footer__icon"
-                />
+                <a href="mailto:jordanma2004@outlook.es">
+                  <img
+                    src="../assets/Icons/Email.png"
+                    alt="E-mail"
+                    className="menu__footer__icon"
+                  />
+                </a>
               </li>
               <li className="menu__footer__item">
-                <img
-                  src="../assets/Icons/Linkedin.png"
-                  id="linkedinLogo"
-                  alt="Linkedin"
-                  className="menu__footer__icon"
-                />
+                <a
+                  href="https://www.linkedin.com/in/yordan-mej%C3%ADa-9a221a266/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    src="../assets/Icons/Linkedin.png"
+                    id="linkedinLogo"
+                    alt="Linkedin"
+                    className="menu__footer__icon"
+                  />
+                </a>
               </li>
               <li className="menu__footer__item">
-                <img
-                  src="../assets/Icons/GitHub.png"
-                  alt="GitHub"
-                  className="menu__footer__icon githubLogo"
-                />
+                <a
+                  href="https://github.com/Jordan0105"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    src="../assets/Icons/GitHub.png"
+                    alt="GitHub"
+                    className="menu__footer__icon githubLogo"
+                  />
+                </a>
               </li>
               <li className="menu__footer__item">
-                <img
-                  src="../assets/Icons/Twitter.png"
-                  alt="Twitter"
-                  className="menu__footer__icon"
-                />
+                <a
+                  href="https://twitter.com/Jorsh0105"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    src="../assets/Icons/Twitter.png"
+                    alt="Twitter"
+                    className="menu__footer__icon"
+                  />
+                </a>
               </li>
             </AttentionSeeker>
           </ul>
