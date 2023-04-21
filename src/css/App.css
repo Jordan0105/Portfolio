@@ -37,6 +37,10 @@ img {
     border-style: none;
 }
 
+p {
+    cursor: default;
+}
+
 a {
     background-color: transparent;
     color: inherit;

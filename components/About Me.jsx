@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "../src/css/css-components/About Me.css";
+import "../src/css/css-components/Bob Animation.css";
 import { AttentionSeeker } from "react-awesome-reveal";
 
 function AboutMe() {
@@ -106,42 +107,41 @@ function AboutMe() {
               id="HTMLogo"
               alt="HTML5"
               title="HTML"
-              className="about__item__fronTool"
+              className="about__item__fronTool hvr-bob"
             />
             <img
               src="../assets/Icons/CSS3.png"
               id="CSSLogo"
               alt="CSS3"
               title="CSS"
-              className="about__item__fronTool"
+              className="about__item__fronTool hvr-bob"
             />
             <img
               src="../assets/Icons/Sass.png"
               id="SassLogo"
               alt="Sass"
               title="Sass"
-              className="about__item__fronTool"
+              className="about__item__fronTool hvr-bob"
             />
             <img
               src="../assets/Icons/React.png"
               id="ReactLogo"
               alt="React"
               title="React"
-              className="about__item__fronTool"
+              className="about__item__fronTool hvr-bob"
             />
             <img
               src="../assets/Icons/Bootstrap5.png"
               id="BootstrapLogo"
               alt="Bootstrap"
               title="Bootstrap"
-              className="about__item__fronTool"
+              className="about__item__fronTool hvr-bob"
             />
             <img
               id="BulmaLogo"
               src="../assets/Icons/Bulma.png"
               alt="Bulma"
-              title="Bulma"
-              className="about__item__fronTool"
+              className="about__item__fronTool hvr-bob"
             />
           </AttentionSeeker>
         </div>
@@ -154,29 +154,25 @@ function AboutMe() {
             <img
               src="../assets/Icons/Git.png"
               id="gitLogo"
-              title="Git"
               alt="Git"
-              className="about__item__tesTool"
+              className="about__item__tesTool hvr-bob"
             />
             <img
               src="../assets/Icons/GitHub.png"
               alt="GitHub"
-              title="GitHub"
-              className="about__item__tesTool githubLogo"
+              className="about__item__tesTool githubLogo hvr-bob"
             />
             <img
               src="../assets/Icons/Travis CI.png"
               id="travisLogo"
               alt="Travis CI Logo"
-              className="about__item__tesTool"
-              title="Travis CI"
+              className="about__item__tesTool hvr-bob"
             />
             <img
               src="../assets/Icons/Jest.png"
               id="jestLogo"
               alt="Jest"
-              title="Jest"
-              className="about__item__tesTool"
+              className="about__item__tesTool hvr-bob"
             />
           </AttentionSeeker>
         </div>
