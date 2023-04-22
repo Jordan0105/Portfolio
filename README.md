@@ -1,1 +1,3 @@
-Welcome to my portfolio, I'm loving buiding this so yeah, a few days more and it will be done
+Welcome to my portfolio
+Built it with React + Vite
+Witth a pretty smooth scrolling and some animations and effects, fully responsive and cool
